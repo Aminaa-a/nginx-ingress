@@ -94,6 +94,7 @@ $ nslookup <dns-name>
 ### 5.1 Define path based or host based routing rules for your services.
 
 ### Single DNS Sample with host and servcie place holders
+#kubernetes.io/ingress.class: nginx
 ``` yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
